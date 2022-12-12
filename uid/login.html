@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login-form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-page">
+  <div class="login-form">
+    <form>
+      <h2>Login</h2>
+      <div class="form-box">
+        <i class="fas fa-user"></i>
+        <input type="text" name="username" placeholder="User name">
+      </div>
+      <div class="form-box">
+        <i class="fas fa-key"></i>
+        <input type="password" name="password" placeholder="Password">
+      </div>
+      <div class="form-box">
+        <label class="remember">
+          <input type="checkbox" name="remember"> Remember me
+        </label>
+                <a href="#" class="forgot-pwd">Forgot Password?</a>
+      </div>
+    </form>
+    <div class="form-bo">
+      <button type="submit" class="submit-btn" onclick="window.location.href ='index.html';" >Log in </button>
+  </div>
+  </div>
+
+    <div class="social-login">
+        <h3>Login<br><span>With Social media account</span></h3>
+        <div class="social-btn">
+           <button type="button" class="twitter-btn" onclick="window.location.href ='https://twitter.com/login';"><i class="fab fa-twitter-square"></i> Twitter</button>
+           <button type="button" class="facebook-btn" onclick="window.location.href ='https://www.facebook.com/login/';"><i class="fab fa-facebook-square"></i> Facebook</button>
+           <button type="button" class="google-btn" onclick="window.location.href ='https://accounts.google.com/';"><i class="fab fa-google-plus-square"></i> Google+</button>
+        </div><br>
+
+        <hr>
+
+        <div class="new-register">
+            <p>Don’t have an account? <a href="register.html">Register Now!</a></p>
+            <div class="form-box">
+                <button type="submit" class="submit-btn" onclick="window.location.href ='register.html';" >register</button>
+            </div>
+        </div>
+    </div>   
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    align-items:;
+
+}
+
+}
+.container{
+    position: relative;
+  }
+  
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+
+.image1{ 
+    width: 100%;
+    height:70%;
+    opacity: 0.5;
+    border-color: whitesmoke;
+}
+.hr{
+    height: 60px;
+    width: 10px;
+    align-items: center;
+}
+
+.profile{
+    background-color:beige;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.image2{
+    float:right;
+    text-align: justify;
+    vertical-align: middle;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    border-block-color: black;
+}
+.experiences{
+    background-color:azure;
+    
+}
+#education{
+    background-color: beige;
+
+}
+a.button:hover{
+    background: #383;
+}
+.skills{
+    background-color:azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+.languages{
+    background-color: beige;  
+}
+.contact{
+    background-color: black;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }  
